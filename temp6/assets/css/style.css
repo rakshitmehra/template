@@ -1,15 +1,5 @@
-/* =======================================================================
-Template Name: Youtubers
-Author:  SmartEye Technologies
-Author URI: www.smarteyeapps.com
-Version: 1.0
-coder name:Prabin Raja
-Description: This Template is created for Youtubers
-======================================================================= */
 /* ===================================== Import Variables ================================== */
-@import url(https://fonts.googleapis.com/css?family=Montserrat:300,400,600,700);
-@import url(https://fonts.googleapis.com/css?family=Arimo:300,400,400italic,700,700italic);
-/* ===================================== Basic CSS ==================================== */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;1,500&display=swap');/* ===================================== Basic CSS ==================================== */
 * {
   margin: 0px;
   padding: 0px;
@@ -59,7 +49,10 @@ html, body {
 
 p {
   margin-bottom: 0px;
-  width: 100%; }
+  width: 100%;
+  font-size: 20px;
+  padding-top: 10px;
+}
 
 .no-padding {
   padding: 0px; }
@@ -487,16 +480,12 @@ header {
   .about-us .natur-row {
     margin-top: 20px; }
   .about-us .text-part h2 {
-    font-weight: 600;
-    font-size: 1.8rem;
+    font-weight: 800;
+    font-size: 2rem;
     margin-bottom: 20px; }
   .about-us .text-part p {
-    text-indent: 20px;
     margin-bottom: 15px;
-    line-height: 27px;
-    font-weight: 500;
-    text-align: justify;
-    font-size: 1.2rem; }
+    font-size: 20px; }
   .about-us .image-part .about-quick-box .about-qcard {
     padding: 50px 30px;
     background-color: #ffffff;

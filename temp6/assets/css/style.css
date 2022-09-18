@@ -13,7 +13,12 @@ Description: This Template is created for Youtubers
 * {
   margin: 0px;
   padding: 0px;
-  list-style: none; }
+  list-style: none;
+  }
+
+html{
+  scroll-behavior: smooth;
+}
 
 img {
   max-width: 100%; }
